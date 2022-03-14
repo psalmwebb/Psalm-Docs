@@ -21,7 +21,7 @@ var AppController = /** @class */ (function () {
         this.appService = appService;
     }
     AppController.prototype.home = function (res) {
-        res.sendFile((0, path_1.join)(__dirname, "client_build", "index.html"));
+        res.sendFile((0, path_1.join)(__dirname, "client_dist", "index.html"));
     };
     __decorate([
         (0, common_1.Get)("/"),

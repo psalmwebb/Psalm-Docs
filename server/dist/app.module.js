@@ -39,7 +39,7 @@ var AppModule = /** @class */ (function () {
                     migrationsRun: false
                 }),
                 serve_static_1.ServeStaticModule.forRoot({
-                    rootPath: (0, path_1.join)(__dirname, "client_build")
+                    rootPath: (0, path_1.join)(__dirname, "client_dist")
                 }),
                 users_module_1.UserModule,
                 data_module_1.DataModule,
