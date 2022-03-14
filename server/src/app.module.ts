@@ -23,7 +23,7 @@ config({path:join(__dirname,"..",".env")});
       host: process.env.db_host,
       port: 3306,
       username:process.env.db_user,
-      password: '',
+      password:process.env.db_pass,
       database: process.env.db_name,
       entities: [User,Document],
       synchronize: false,
