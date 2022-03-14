@@ -1,0 +1,95 @@
+
+.home{
+    background-image:url('../homebg.jpg');
+    background-color:rgba(0,0,0,0.2);
+    background-blend-mode:darken;
+    background-position:center center;
+    background-size:cover;
+    font-family:'Nunito';
+    // border:5px solid black;
+
+    .home-nav{
+        // border:1px solid black;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        position:sticky;
+        top:0;
+        padding:20px;
+        background-color:rgba(0,0,0,0.3);
+
+        h3{
+          color:white;
+        }
+
+        ul{
+            display:flex;
+            li{
+               list-style-type: none;
+                a{
+                   text-decoration:none;
+                   margin:5px;
+                   padding:10px;
+                //    border:1px solid black;
+                   border-radius:4px;
+                   color:white;
+                }
+            }
+
+        }
+    }
+
+    .home-section{
+        //  border:1px solid black;
+         margin-top:40px;
+
+        .s-d-section{
+        //    border:1px solid black;
+           height:300px;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+
+           h2{
+               text-align:center;
+               font-size:35px;
+               color:white;
+           }
+
+           .free-btn-div{
+               display:flex;
+               justify-content:center;
+
+               button{
+                   padding:20px 60px;
+                   font-family:'Nunito';
+                   cursor: pointer;
+                   border-radius:3px;
+                   font-weight:bold;
+                   background-color:greenyellow;
+                   border:2px solid greenyellow;
+               }
+           }
+        }
+
+        .illustration-section{
+            margin-top:20px;
+            padding:20px;
+            // clip-path: polygon(33% 23%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+            background-color:#f3f3f3;
+            height:500px;
+            h3{
+                text-align:center;
+                font-size:30px;
+            }
+
+            .illustration-img{
+                border:1px solid black;
+                width:60%;
+                margin:0 auto;
+                height:inherit;
+            }
+        }
+    }
+
+}
