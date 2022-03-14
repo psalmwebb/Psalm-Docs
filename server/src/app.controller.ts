@@ -9,7 +9,7 @@ export class AppController {
 
   @Get("/")
   home(@Res() res:Response){
-    res.sendFile(join(__dirname,"..","client_build","index.html"));
+    res.sendFile(join(__dirname,"client_build","index.html"));
   }
 }
 

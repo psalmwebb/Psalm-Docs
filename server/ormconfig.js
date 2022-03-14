@@ -1,17 +1,19 @@
-{
+require('dotenv').config();
+
+module.exports = {
    "type": "mysql",
    "host": "localhost",
    "port": 3306,
-   "username": "root",
-   "password": "",
-   "database": "psalmdocs",
-   "synchronize": false,
+   "username": "test",
+   "password": "test",
+   "database": "test",
+   "synchronize": true,
    "logging": false,
-   "entities":[
-      "src/modules/**/*.entity.{ts,js}"
+   "entities": [
+      "src/entity/**/*.ts"
    ],
    "migrations": [
-      "src/migrations/*.{ts,js}"
+      "src/migration/**/*.ts"
    ],
    "subscribers": [
       "src/subscriber/**/*.ts"
