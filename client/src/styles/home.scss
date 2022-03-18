@@ -75,7 +75,6 @@
         .illustration-section{
             margin-top:20px;
             padding:20px;
-            // clip-path: polygon(33% 23%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
             background-color:#f3f3f3;
             height:500px;
             h3{
@@ -84,10 +83,14 @@
             }
 
             .illustration-img{
-                border:1px solid black;
+                box-shadow:0 0 5px 0 lightgray;
                 width:60%;
                 margin:0 auto;
                 height:inherit;
+                background-image:url(../Capture.JPG);
+                background-position:center center;
+                background-size:cover;
+                border-radius:3px;
             }
         }
     }

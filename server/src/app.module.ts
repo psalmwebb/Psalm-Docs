@@ -30,7 +30,7 @@ config({path:join(__dirname,"..",".env")});
       migrationsRun:false
   }),
   ServeStaticModule.forRoot({
-    rootPath:join(__dirname,"client_build")
+    rootPath:join(__dirname,"..","cbuild")
   }),
     UserModule,
     DataModule,

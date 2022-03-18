@@ -55,9 +55,10 @@
            border-radius:3px;
            display:flex;
            justify-content:flex-start;
+           flex-wrap:wrap;
 
            .doc-div{
-                 
+
                 .doc{
                     width:300px;
                     height:300px;
@@ -65,7 +66,7 @@
                     transform-origin: left top;
                     margin-bottom:-150px;
                     margin-right:-120px;
-                    display:inline-block;
+                    // display:inline-block;
                     overflow:hidden;
                     box-shadow:0 0 5px 0 lightgray;
                     padding:10px;

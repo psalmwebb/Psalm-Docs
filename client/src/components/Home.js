@@ -26,7 +26,7 @@ export default function Home()
             </div>
 
             <div className="illustration-section">
-                <h3>Work with text documents</h3>
+                {/* <h3>Work with text documents</h3> */}
 
                 <div className="illustration-img">
                     {/* Am images goes here */}
